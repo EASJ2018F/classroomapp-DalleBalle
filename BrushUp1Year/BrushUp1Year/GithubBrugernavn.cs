@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassRoom
+namespace BrushUp1Year
 {
-    class Program
+    class GithubBrugernavn
     {
-        static void Main(string[] args)
-        {
-        }
+        // Dalleballe
+        // https://github.com/DalleBalle
     }
 }
