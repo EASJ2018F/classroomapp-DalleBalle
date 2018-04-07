@@ -12,8 +12,7 @@ namespace BrushUp1Year
         private int _doors;
         private string _model;
         private string _registrationNo;
-
-        public enum Color { Black, White, Gray, Red, Green, Blue };
+        Color _color;
 
         // Properties
         public int Doors
@@ -56,12 +55,12 @@ namespace BrushUp1Year
         }
 
         // Constructor
-        public Car(Color color, int doors, string model, string registrationNo)
+        public Car(int doors, string model, string registrationNo, Color color)
         {
             this.Doors = doors;
             this.Model = model;
             this.RegistrationNo = registrationNo;
-            //this.Color
+            this._color = color;
         }
     }
 }
